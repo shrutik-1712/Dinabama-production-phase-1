@@ -3,7 +3,6 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './Pages/Home';
 import About from './Pages/About';
-import Facilities from './Pages/Facilites';
 import OPAC from './Pages/OPAC';
 import Achivers from './Pages/Alumi';
 import Events from './Pages/events';
@@ -26,7 +25,6 @@ const App = () => {
             <Route path="/admin" element={<AdminPanel/>} />
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/facilities" element={<Facilities />} />
             <Route path="/opac" element={<OPAC />} />
             <Route path="/achivers" element={<Achivers />} />
             <Route path="/events" element={<Events />} />
