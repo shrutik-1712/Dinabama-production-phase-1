@@ -28,7 +28,7 @@ const Header = () => {
       label: "About Us",
       hasDropdown: true,
       subItems: [
-        { to: "/about", label: "About us" },
+        { to: "/about", label: "About" },
         { to: "/LibraryCommittee", label: "Library Advisory Committee" },
         { to: "/LibraryTeam", label: "Library Pillars" },
       ],
