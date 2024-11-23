@@ -7,7 +7,6 @@ interface TeamMember {
   name: string;
   image: string;
   role: string;
-  description: string;
 }
 
 const LibraryTeam = () => {
@@ -63,7 +62,6 @@ const LibraryTeam = () => {
               </div>
               <h3 className="font-semibold text-lg mb-1">{member.name}</h3>
               <p className="text-gray-600 font-medium mb-1">{member.role}</p>
-              <p className="text-gray-600 text-sm">{member.description}</p>
             </div>
           </Card>
         ))}
