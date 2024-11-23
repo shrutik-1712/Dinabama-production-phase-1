@@ -49,7 +49,7 @@ const LibraryTeam = () => {
         {libraryTeam.map((member, index) => (
           <Card key={index} className="p-4">
             <div className="text-center">
-              <div className="relative w-32 h-32 mx-auto mb-4">
+              <div className="relative w-33 h-33 mx-auto mb-4">
                 <img
                   src={member.image}
                   alt={member.name}

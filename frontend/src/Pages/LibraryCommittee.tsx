@@ -76,7 +76,7 @@ const LibraryCommittee = () => {
             key={index}
             className="flex flex-col sm:flex-row items-center gap-8 p-6 border rounded-lg hover:bg-gray-50 transition-colors"
           >
-            <div className="w-40 h-40 shrink-0">
+            <div className="w-40 h-41 shrink-0">
               <img
                 src={member.image}
                 alt={member.name}

@@ -99,7 +99,7 @@ const Alumni = () => {
               </CardHeader>
               <CardContent>
                 <div className="flex flex-col items-center">
-                  <div className="relative w-32 h-32 mb-4">
+                  <div className="relative w-32 h-33 mb-4">
                     <img
                       src={member.image}
                       alt={member.name}

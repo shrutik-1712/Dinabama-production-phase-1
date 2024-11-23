@@ -1,22 +1,22 @@
 [
   {
       "name": "SANJAY DINA PATIL",
-      "image": "/images/committee/sanjay-patil.jpg",
+      "image": "./src/Jsons/images/committee/sanjay-patil.jpg",
       "role": "President (Member of Parliament, Lok Sabha)"
   },
   {
       "name": "PALLAVI SANJAY PATIL",
-      "image": "/images/committee/pallavi-patil.jpg",
+      "image": "./src/Jsons/Images/committee/pallavi-patil.jpg",
       "role": "Trustee"
   },
   {
       "name": "RAJOOL SANJAY PATIL",
-      "image": "/images/committee/rajool-patil.jpg",
+      "image": "./src/Jsons/images/committee/rajool-patil.jpg",
       "role": "Secretary"
   },
   {
       "name": "GOVINDARAJAN JAGANATHAN",
-      "image": "/images/committee/govindarajan-jaganathan.jpg",
+      "image": "./src/Jsons/images/committee/govindarajan-jaganathan.jpg",
       "role": "Treasurer"
   }
 ]
