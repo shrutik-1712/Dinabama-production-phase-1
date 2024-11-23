@@ -96,7 +96,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-[#8DB6CD] text-center">
-          <p>&copy; Late Dina Bama Patil Pratishthan's DINA BAMA PATIL LIBRARY & STUDY ROOM. All rights reserved.</p>
+          <p>&copy; 2024 Late Dina Bama Patil Pratishthan's DINA BAMA PATIL LIBRARY & STUDY ROOM. All rights reserved.</p>
         </div>
       </div>
     </footer>
