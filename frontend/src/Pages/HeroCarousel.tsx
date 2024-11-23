@@ -4,19 +4,22 @@ import Picture1 from "../assets/LibraryCarouselImages/Picture1.jpg"
 import Picture2 from "../assets/LibraryCarouselImages/Picture2.jpg"
 import Picture3 from "../assets/LibraryCarouselImages/Picture3.jpg"
 import Picture4 from "../assets/LibraryCarouselImages/Picture4.jpg"
-import Picture5 from "../assets/LibraryCarouselImages/Picture5.jpg"
 import Picture6 from "../assets/LibraryCarouselImages/Picture6.jpg"
-
+import Picture5 from "../assets/LibraryCarouselImages/Picture5.jpg"
+import Picture7 from "../assets/LibraryCarouselImages/Picture7.jpg"
+import Picture0 from "../assets/LibImages/Picture0.jpg"
 const HeroCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const heroImages = [
+    { url: Picture0, alt: "Library Image 1" },
     { url: Picture1, alt: "Library Image 1" },
     { url: Picture2, alt: "Library Image 2" },
     { url: Picture3, alt: "Library Image 3" },
     { url: Picture4, alt: "Library Image 4" },
-    { url: Picture5, alt: "Library Image 5" },
-    { url: Picture6, alt: "Library Image 6" }
+    { url: Picture6, alt: "Library Image 6" },
+    { url: Picture5, alt: "Library Image 7" },
+    { url: Picture7, alt: "Library Image 6" }
   ];
 
   useEffect(() => {
@@ -56,14 +59,16 @@ const HeroCarousel = () => {
             backgroundPosition: 'center',
           }}
         >
-          <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col justify-center items-center text-white text-center p-4">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-2 sm:mb-4">
-              Welcome to Our Library
-            </h1>
-            <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-4 sm:mb-6 lg:mb-8 max-w-xs sm:max-w-sm md:max-w-xl lg:max-w-2xl px-2 sm:px-4">
-              Discover endless possibilities through reading and learning
-            </p>
-          </div>
+          {index === 0 && (
+            <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col justify-center items-center text-white text-center p-4">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-2 sm:mb-4">
+                Welcome to Our Library
+              </h1>
+              <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-4 sm:mb-6 lg:mb-8 max-w-xs sm:max-w-sm md:max-w-xl lg:max-w-2xl px-2 sm:px-4">
+                Discover endless possibilities through reading and learning
+              </p>
+            </div>
+          )}
         </div>
       ))}
 
