@@ -10,7 +10,7 @@ interface AlumniMember {
   name: string;
   designation: string;
   Rank: string;
-  posting: string,
+  posting?: string;  // Made posting optional with '?'
   image: string;
 }
 
@@ -113,7 +113,9 @@ const Alumni = () => {
                   </div>
                   <div className="text-center">
                     <p className="font-medium text-gray-800 mb-1">{member.designation}</p>
-                    <p className="font-medium text-gray-800 mb-1">{member.posting}</p>
+                    {member.posting && (
+                      <p className="font-medium text-gray-800 mb-1">{member.posting}</p>
+                    )}
                   </div>
                 </div>
               </CardContent>
