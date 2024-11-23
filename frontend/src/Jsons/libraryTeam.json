@@ -1,0 +1,27 @@
+[
+  {
+      "name": "Dr. Madhav Suryawanshi",
+      "image": "/images/team/madhav-suryawanshi.jpg",
+      "role": "Head - Dina Bama Patil Library"
+  },
+  {
+      "name": "Mr. Pratik Waman Rokade (M.L.I.Sc, B.Com)",
+      "image": "/images/team/pratik-rokade.jpg",
+      "role": "Librarian "
+  },
+  {
+      "name": "Miss. Sampada P. Rokade (B.Com, D.L.I.Sc)",
+      "image": "/images/team/sampada-rokade.jpg",
+      "role": "Professional Assistant "
+  },
+  {
+      "name": "Mr. Shailesh Rupaji Shipat",
+      "image": "/images/team/shailesh-shipat.jpg",
+      "role": "Library Attendant"
+  },
+  {
+      "name": "Ms. Shruti Sanjay Gupta",
+      "image": "/images/team/shruti-gupta.jpg",
+      "role": "Admin Assistant"
+  }
+]

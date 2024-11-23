@@ -1,0 +1,46 @@
+{
+    "events": [
+      {
+        "_id": "1",
+        "title": "Contemporary Art Exhibition",
+        "date": "2024-12-15",
+        "description": "Experience modern artistic expressions through various mediums including paintings, sculptures, and digital art.",
+        "address": "123 Gallery Street",
+        "location": "Downtown Arts District",
+        "timings": "10:00 AM - 6:00 PM",
+        "images": [
+          "/api/placeholder/800/600",
+          "/api/placeholder/800/600",
+          "/api/placeholder/800/600"
+        ]
+      },
+      {
+        "_id": "2",
+        "title": "Photography Workshop",
+        "date": "2024-12-20",
+        "description": "Learn advanced photography techniques from professional photographers in this hands-on workshop.",
+        "address": "456 Studio Avenue",
+        "location": "Creative Hub",
+        "timings": "2:00 PM - 5:00 PM",
+        "images": [
+          "/api/placeholder/800/600",
+          "/api/placeholder/800/600"
+        ]
+      },
+      {
+        "_id": "3",
+        "title": "Sculpture Garden Opening",
+        "date": "2024-12-25",
+        "description": "Join us for the grand opening of our new sculpture garden featuring works from local artists.",
+        "address": "789 Park Road",
+        "location": "Botanical Gardens",
+        "timings": "11:00 AM - 4:00 PM",
+        "images": [
+          "/api/placeholder/800/600",
+          "/api/placeholder/800/600",
+          "/api/placeholder/800/600",
+          "/api/placeholder/800/600"
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,185 @@
+[
+  {
+      "_id": "1",
+      "name": "Mr. RohanKumar S. Patil",
+      "designation": "Police Sub Inspector (PSI)",
+      "Rank": "2nd",
+      "posting": "Maharashtra Police",
+      "image": "/images/alumni/rohan-patil.jpg"
+  },
+  {
+      "_id": "2",
+      "name": "Mr. Dnyaneshwar J. Mohane",
+      "designation": "Police Sub Inspector (PSI)",
+      "Rank": "2nd",
+      "posting": "Maharashtra Police",
+      "image": "/images/alumni/dnyaneshwar-mohane.jpg"
+  },
+  {
+      "_id": "3",
+      "name": "Mr. Avinash Dilip Salunkhe",
+      "designation": "Clerk (Executive Assistant)",
+      "Rank": "3rd",
+      "posting": "Brihanmumbai Municipal Corporation",
+      "image": "/images/alumni/avinash-salunkhe.jpg"
+  },
+  {
+      "_id": "4",
+      "name": "Dr. Suvarna Vilas Thorat",
+      "designation": "NEET SS 2023",
+      "Rank": "1st",
+      "posting": "",
+      "image": "/images/alumni/suvarna-thorat.jpg"
+  },
+  {
+      "_id": "5",
+      "name": "Mr. Manoj Anpat",
+      "designation": "Police Constable",
+      "Rank": "3rd",
+      "posting": "Mumbai Police",
+      "image": "/images/alumni/manoj-anpat.jpg"
+  },
+  {
+      "_id": "6",
+      "name": "Mr. Sanjay Vijay Chaferkar",
+      "designation": "Junior Associate",
+      "Rank": "3rd",
+      "posting": "State Bank of India",
+      "image": "/images/alumni/sanjay-chaferkar.jpg"
+  },
+  {
+      "_id": "7",
+      "name": "Mr. Bhausaheb Navnath Avhad",
+      "designation": "Police Constable",
+      "Rank": "3rd",
+      "posting": "Mumbai Police",
+      "image": "/images/alumni/bhausaheb-avhad.jpg"
+  },
+  {
+      "_id": "8",
+      "name": "Miss. Priyanka Gangarde",
+      "designation": "Tax and Administrative Officer",
+      "Rank": "3rd",
+      "posting": "Govt of Maharashtra",
+      "image": "/images/alumni/priyanka-gangarde.jpg"
+  },
+  {
+      "_id": "9",
+      "name": "Mr. Pradip Ramlal Ghitre",
+      "designation": "Police Constable",
+      "Rank": "3rd",
+      "posting": "Mumbai Police",
+      "image": "/images/alumni/pradip-ghitre.jpg"
+  },
+  {
+      "_id": "10",
+      "name": "Miss Krishna Taparia",
+      "designation": "Chartered Accountant (CA)",
+      "Rank": "2nd",
+      "posting": "",
+      "image": "/images/alumni/krishna-taparia.jpg"
+  },
+  {
+      "_id": "11",
+      "name": "Mr. Akash Bhimrao Kashid",
+      "designation": "Central Reserved Police Force (ASI)",
+      "Rank": "3rd",
+      "posting": "",
+      "image": "/images/alumni/akash-kashid.jpg"
+  },
+  {
+      "_id": "12",
+      "name": "Mr. Shashank Talwatkar",
+      "designation": "Tax and Administrative Officer",
+      "Rank": "3rd",
+      "posting": "Govt of Maharashtra",
+      "image": "/images/alumni/shashank-talwatkar.jpg"
+  },
+  {
+      "_id": "13",
+      "name": "Mr. Viraj Vilas Thorat",
+      "designation": "Civil Engineer (Group – C)",
+      "Rank": "3rd",
+      "posting": "Maharashtra Govt",
+      "image": "/images/alumni/viraj-thorat.jpg"
+  },
+  {
+      "_id": "14",
+      "name": "Mr. Mayur Patil",
+      "designation": "Junior Associate",
+      "Rank": "3rd",
+      "posting": "Bank of India",
+      "image": "/images/alumni/mayur-patil.jpg"
+  },
+  {
+      "_id": "15",
+      "name": "Mr. Rutik Gurav",
+      "designation": "SRPF RG-16 Kolhapur",
+      "Rank": "3rd",
+      "posting": "Maharashtra Police",
+      "image": "/images/alumni/rutik-gurav.jpg"
+  },
+  {
+      "_id": "16",
+      "name": "Mr. Sarvesh Mhaskar",
+      "designation": "Chartered Accountant (CA)",
+      "Rank": "2nd",
+      "posting": "",
+      "image": "/images/alumni/sarvesh-mhaskar.jpg"
+  },
+  {
+      "_id": "17",
+      "name": "Mr. Anurag Gupta",
+      "designation": "Chartered Accountant (CA)",
+      "Rank": "2nd",
+      "posting": "",
+      "image": "/images/alumni/anurag-gupta.jpg"
+  },
+  {
+      "_id": "18",
+      "name": "Mr. Omkar Vilas Sipat",
+      "designation": "Police Constable",
+      "Rank": "3rd",
+      "posting": "Mumbai Police",
+      "image": "/images/alumni/omkar-sipat.jpg"
+  },
+  {
+      "_id": "19",
+      "name": "Mr. Sunil Pandey",
+      "designation": "Chartered Accountant (CA)",
+      "Rank": "2nd",
+      "posting": "",
+      "image": "/images/alumni/sunil-pandey.jpg"
+  },
+  {
+      "_id": "20",
+      "name": "Mr. Avinash Katkar",
+      "designation": "Internal Auditor",
+      "Rank": "2nd",
+      "posting": "Govt of Maharashtra",
+      "image": "/images/alumni/avinash-katkar.jpg"
+  },
+  {
+      "_id": "21",
+      "name": "Mr. Yogesh Pawar",
+      "designation": "Account Clerk WRD",
+      "Rank": "3rd",
+      "posting": "Govt of Maharashtra",
+      "image": "/images/alumni/yogesh-pawar.jpg"
+  },
+  {
+      "_id": "22",
+      "name": "Mr. Sanket Nailesh Patel",
+      "designation": "Chartered Accountant (CA)",
+      "Rank": "2nd",
+      "posting": "",
+      "image": "/images/alumni/sanket-patel.jpg"
+  },
+  {
+      "_id": "23",
+      "name": "Mr. Abhilash Yeola",
+      "designation": "Chartered Accountant (CA)",
+      "Rank": "2nd",
+      "image": "/images/alumni/abhilash-yeola.jpg"
+  }
+]
