@@ -41,27 +41,29 @@ const LibraryTeam = () => {
   }
 
   return (
-    <div className="container mx-auto px-4 py-12 max-w-5xl">
+    <div className="container mx-auto px-4 py-12 max-w-6xl">
       <h2 className="text-3xl font-semibold mb-8 flex items-center">
         <Users className="mr-2" /> Library Pillars
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+      <div className="flex flex-col space-y-6">
         {libraryTeam.map((member, index) => (
-          <Card key={index} className="p-4">
-            <div className="text-center">
-              <div className="relative w-33 h-33 mx-auto mb-4">
+          <Card key={index} className="p-8">
+            <div className="flex items-center space-x-12">
+              <div className="relative w-40 h-48 flex-shrink-0">
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="object-cover w-full h-full shadow-lg"
+                  className="object-cover w-full h-full rounded-lg shadow-lg"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
                     target.src = '/api/placeholder/128/128';
                   }}
                 />
               </div>
-              <h3 className="font-semibold text-lg mb-1">{member.name}</h3>
-              <p className="text-gray-600 font-medium mb-1">{member.role}</p>
+              <div className="flex-grow">
+                <h3 className="font-semibold text-2xl mb-3">{member.name}</h3>
+                <p className="text-gray-600 text-lg font-medium">{member.role}</p>
+              </div>
             </div>
           </Card>
         ))}

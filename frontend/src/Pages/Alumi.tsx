@@ -95,7 +95,7 @@ const Alumni = () => {
               className="hover:shadow-lg transition-shadow duration-300 bg-white"
             >
               <CardHeader className="space-y-2">
-                <CardTitle className="text-xl font-semibold text-gray-900">{member.name}</CardTitle>
+                <CardTitle className="text-xl font-semibold text-gray-900 text-center">{member.name}</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-col items-center">

@@ -43,10 +43,9 @@ const TestimonialCarousel = () => {
   const currentTestimonial = testimonials[currentIndex];
 
   return (
-    <div className="container mx-auto py-20 bg-background">
+    <div className="container mx-auto  bg-background">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-2xl font-bold" style={{ color: '#D2B48C' }}>Testimonials</h2>
         </div>
         <div className="relative bg-white rounded-xl p-8 md:p-12">
           <div className="text-center">
