@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { MapPin, Clock, ChevronLeft, ChevronRight, Maximize2, X } from 'lucide-react';
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
@@ -31,7 +31,7 @@ const Events = () => {
   const events = [
     {
       "_id": "1",
-      "title": "Book Exchange Exhibition 2023",
+      "title": "Book Exchange Exhibition",
       "date": "",
       "description": "Discover the magic of books at the Book Exhibition! Explore a wide range of genres, and enjoy exciting workshops. Perfect for readers of all ages. 📅. Don't miss it!",
       "address": "Bhandup-west (At library)",
