@@ -3,7 +3,7 @@ import { Card, CardHeader, CardContent, CardTitle } from '@/components/ui/card';
 import { Skeleton } from '@/components/ui/skeleton';
 import { AlertCircle } from 'lucide-react';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
-import alumniData from '../Jsons/Alumni.json';
+import {alumniData} from '../Jsons/Alumni.ts';
 
 interface AlumniMember {
   _id: string;

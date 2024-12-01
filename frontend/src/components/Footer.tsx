@@ -56,7 +56,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center justify-center md:justify-start">
               <Phone size={18} className="mr-2 text-[#DAA520]" />
-              <p>+91 - 704572536</p>
+              <p>+91 - 9702518684</p>
             </div>
           </div>
 

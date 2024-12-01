@@ -1,3 +1,23 @@
+// Image imports for Book Exhibition
+import bookExb0 from "../Jsons/Images/Events/Book Exb-p0.jpg";
+import bookExb1 from "../Jsons/Images/Events/Book Exb-p1.jpg";
+import bookExb2 from "../Jsons/Images/Events/Book Exb-p2.jpg";
+import bookExb3 from "../Jsons/Images/Events/Book Exb-p3.jpg";
+import bookExb5 from "../Jsons/Images/Events/Book Exb-p5.jpg";
+import bookExb6 from "../Jsons/Images/Events/Book Exb-p6.jpg";
+import bookExb7 from "../Jsons/Images/Events/Book Exb-p7.jpg";
+
+// Image imports for APJ Abdul Kalam
+import apjKalam1 from "../Jsons/Images/Events/APJ Kalam-p1.jpg";
+import apjKalam2 from "../Jsons/Images/Events/APJ Kalam-p2.jpg";
+import apjKalam3 from "../Jsons/Images/Events/APJ Kalam-p3.jpg";
+
+// Image imports for Dr. S.R. Ranganathan
+import srRanganathan1 from "../Jsons/Images/Events/Dr.- S.R-ranganathan-p-1.jpg";
+import srRanganathan2 from "../Jsons/Images/Events/Dr.- S.R-ranganathan-p-2.jpg";
+import srRanganathan3 from "../Jsons/Images/Events/Dr.- S.R-ranganathan-p-3.jpg";
+import srRanganathan4 from "../Jsons/Images/Events/Dr.- S.R-ranganathan-p-4.jpg";
+
 import { useState } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { MapPin, Clock, ChevronLeft, ChevronRight, Maximize2, X } from 'lucide-react';
@@ -38,13 +58,13 @@ const Events = () => {
       "location": "",
       "timings": "",
       "images": [
-        "/src/Jsons/Images/Events/Book Exb-p0.jpg",
-        "/src/Jsons/Images/Events/Book Exb-p1.jpg",
-        "/src/Jsons/Images/Events/Book Exb-p2.jpg",
-        "/src/Jsons/Images/Events/Book Exb-p3.jpg",
-        "/src/Jsons/Images/Events/Book Exb-p5.jpg",
-        "/src/Jsons/Images/Events/Book Exb-p6.jpg",
-        "/src/Jsons/Images/Events/Book Exb-p7.jpg"
+        bookExb0,
+        bookExb1,
+        bookExb2,
+        bookExb3,
+        bookExb5,
+        bookExb6,
+        bookExb7
       ]
     },
     {
@@ -56,9 +76,9 @@ const Events = () => {
       "location": "",
       "timings": "",
       "images": [
-        "/src/Jsons/Images/Events/APJ Kalam-p1.jpg",
-        "/src/Jsons/Images/Events/APJ Kalam-p2.jpg",
-        "/src/Jsons/Images/Events/APJ Kalam-p3.jpg"
+        apjKalam1,
+        apjKalam2,
+        apjKalam3
       ]
     },
     {
@@ -70,10 +90,10 @@ const Events = () => {
       "location": "",
       "timings": "",
       "images": [
-        "/src/Jsons/Images/Events/Dr.- S.R-ranganathan-p-1.jpg",
-        "/src/Jsons/Images/Events/Dr.- S.R-ranganathan-p-2.jpg",
-        "/src/Jsons/Images/Events/Dr.- S.R-ranganathan-p-3.jpg",
-        "/src/Jsons/Images/Events/Dr.- S.R-ranganathan-p-4.jpg"
+        srRanganathan1,
+        srRanganathan2,
+        srRanganathan3,
+        srRanganathan4
       ]
     }
   ];

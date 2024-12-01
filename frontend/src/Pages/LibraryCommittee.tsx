@@ -1,12 +1,13 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Users } from 'lucide-react';
 import { useEffect, useState } from 'react';
-import advisoryCommitteeData from '../Jsons/advisoryCommittee.json';
+import {advisoryCommitteeData} from '../Jsons/advisoryCommittee';
 
 interface AdvisoryMember {
   name: string;
   image: string;
   role: string;
+  description:string;
 }
 
 const LibraryCommittee = () => {
@@ -90,6 +91,7 @@ const LibraryCommittee = () => {
             <div className="flex-1 text-center sm:text-left">
               <h3 className="text-2xl font-semibold mb-3">{member.name}</h3>
               <p className="text-lg text-gray-600">{member.role}</p>
+              <p className="text-lg text-gray-600 text-justify">{member.description}</p>
             </div>
           </div>
         ))}

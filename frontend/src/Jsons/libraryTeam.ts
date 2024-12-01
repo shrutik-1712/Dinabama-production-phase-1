@@ -1,27 +1,33 @@
-[
+import pratik from "./Images/team/pratik-rokade.jpg"
+import Sampada from "./Images/team/sampada-rokade.jpg"
+import madhav from "./Images/team/madhav-suryawanshi.jpg"
+import shruti from "./Images/team/shruti-gupta.jpg"
+import shailesh from "./Images/team/shailesh-shipat.jpg"
+
+export const libraryTeamData=[
   {
       "name": "Dr. Madhav Suryawanshi",
-      "image": "./src/Jsons/Images/team/madhav-suryawanshi.jpg",
+      "image": madhav ,
       "role": "Head - Dina Bama Patil Library"
   },
   {
       "name": "Mr. Pratik Waman Rokade (M.L.I.Sc, B.Com)",
-      "image": "./src/Jsons/Images/team/pratik-rokade.jpg",
+      "image": pratik,
       "role": "Librarian "
   },
   {
       "name": "Miss. Sampada P. Rokade (B.Com, D.L.I.Sc)",
-      "image": "./src/Jsons/Images/team/sampada-rokade.jpg",
+      "image": Sampada,
       "role": "Professional Assistant "
   },
   {
       "name": "Mr. Shailesh Rupaji Shipat",
-      "image": "./src/Jsons/Images/team/shailesh-shipat.jpg",
+      "image": shailesh,
       "role": "Library Attendant"
   },
   {
       "name": "Ms. Shruti Sanjay Gupta",
-      "image": "./src/Jsons/Images/team/shruti-gupta.jpg",
+      "image":shruti,
       "role": "Admin Assistant"
   }
 ]

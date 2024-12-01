@@ -1,12 +1,13 @@
 import { Card } from '@/components/ui/card';
 import { Users } from 'lucide-react';
 import { useEffect, useState } from 'react';
-import libraryTeamData from '../Jsons/libraryTeam.json';
+import {libraryTeamData} from '../Jsons/libraryTeam';
 
 interface TeamMember {
   name: string;
   image: string;
   role: string;
+  
 }
 
 const LibraryTeam = () => {
