@@ -5,9 +5,9 @@ import { defineConfig } from "vite"
 export default defineConfig({
   plugins: [react()],
   base: '/',
-  server:{
-    https: {}
-  },
+  // server:{
+  //   https: {}
+  // },
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
