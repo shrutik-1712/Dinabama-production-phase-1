@@ -8,7 +8,6 @@ import Achivers from './Pages/Alumi';
 import Events from './Pages/events';
 import Donations from './Pages/Donations';
 import Contact from './Pages/Contact';
-// import AdminPanel from './Pages/Admin';
 import EResource from './Pages/Eresource';
 import ErrorPage from './Pages/Error404'
 import Libinfo from './Pages/Libinfo'
