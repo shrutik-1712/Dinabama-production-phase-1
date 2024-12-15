@@ -11,14 +11,14 @@ export const libraryTeamData=[
       "role": "Head - Dina Bama Patil Library"
   },
   {
-      "name": "Mr. Pratik Waman Rokade (M.L.I.Sc, B.Com)",
+      "name": "Mr. Pratik Waman Rokade ",
       "image": pratik,
-      "role": "Librarian "
+      "role": "Librarian \nM.L.I.Sc, B.Com"
   },
   {
-      "name": "Miss. Sampada P. Rokade (B.Com, D.L.I.Sc)",
+      "name": "Miss. Sampada P. Rokade ",
       "image": Sampada,
-      "role": "Professional Assistant "
+      "role": "Professional Assistant \n B.Com, D.L.I.Sc"
   },
   {
       "name": "Mr. Shailesh Rupaji Shipat",

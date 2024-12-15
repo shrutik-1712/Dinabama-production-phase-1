@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Picture1 from "../assets/LibraryCarouselImages/Picture1.jpg"
 import Picture2 from "../assets/LibraryCarouselImages/Picture2.jpg"
-import Picture3 from "../assets/LibraryCarouselImages/Picture3.jpg"
 import Picture4 from "../assets/LibraryCarouselImages/Picture4.jpg"
 import Picture6 from "../assets/LibraryCarouselImages/Picture6.jpg"
 import Picture5 from "../assets/LibraryCarouselImages/Picture5.jpg"
@@ -15,7 +14,6 @@ const HeroCarousel = () => {
     { url: Picture0, alt: "Library Image 1" },
     { url: Picture1, alt: "Library Image 1" },
     { url: Picture2, alt: "Library Image 2" },
-    { url: Picture3, alt: "Library Image 3" },
     { url: Picture4, alt: "Library Image 4" },
     { url: Picture6, alt: "Library Image 6" },
     { url: Picture5, alt: "Library Image 7" },

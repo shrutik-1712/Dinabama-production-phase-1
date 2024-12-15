@@ -12,7 +12,7 @@ const Footer = () => {
     { to: "/", label: "Home" },
     { to: "/about", label: "About Us" },
     { to: "/Library-info", label: "Library" },
-    { to: "/opac", label: "Online Catalogue(OPAC)" },
+    { to: "/opac", label: "Online Catalogue (OPAC)" },
     { to: "/achivers", label: "Achivers" },
     { to: "/events", label: "Events" },
     { to: "/e-resource", label: "E-resource" },

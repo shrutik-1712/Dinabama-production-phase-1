@@ -7,7 +7,6 @@ interface TeamMember {
   name: string;
   image: string;
   role: string;
-  
 }
 
 const LibraryTeam = () => {
@@ -43,14 +42,14 @@ const LibraryTeam = () => {
 
   return (
     <div className="container mx-auto px-4 py-12 max-w-6xl">
-      <h2 className="text-3xl font-semibold mb-8 flex items-center">
-        <Users className="mr-2" /> Library Pillars
+      <h2 className="text-2xl md:text-3xl font-semibold mb-8 flex items-center">
+        <Users className="mr-2 w-6 h-6 md:w-auto md:h-auto" /> Library Pillars
       </h2>
-      <div className="flex flex-col space-y-6">
+      <div className="grid gap-6">
         {libraryTeam.map((member, index) => (
-          <Card key={index} className="p-8">
-            <div className="flex items-center space-x-12">
-              <div className="relative w-40 h-48 flex-shrink-0">
+          <Card key={index} className="p-4 md:p-8">
+            <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-12">
+              <div className="relative w-32 h-40 md:w-40 md:h-48 flex-shrink-0">
                 <img
                   src={member.image}
                   alt={member.name}
@@ -61,9 +60,11 @@ const LibraryTeam = () => {
                   }}
                 />
               </div>
-              <div className="flex-grow">
-                <h3 className="font-semibold text-2xl mb-3">{member.name}</h3>
-                <p className="text-gray-600 text-lg font-medium">{member.role}</p>
+              <div className="flex-grow text-center md:text-left w-full">
+                <h3 className="font-semibold text-xl md:text-2xl mb-2">{member.name}</h3>
+                <p className="text-gray-600 text-base md:text-lg font-medium whitespace-pre-line">
+                  {member.role}
+                </p>
               </div>
             </div>
           </Card>

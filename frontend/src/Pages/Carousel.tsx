@@ -9,7 +9,7 @@ const Carousel = ({ items }: { items: any[] }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % items.length);
-    }, 10000); // Change slide every 10 seconds
+    }, 1000); // Change slide every 10 seconds
 
     return () => clearInterval(interval);
   }, [items.length]);
